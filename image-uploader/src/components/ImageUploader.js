@@ -8,6 +8,7 @@ const ImageUploader = () => {
   const { enqueueSnackbar } = useSnackbar();
   const [postView, setPostView] = useState()
   const [loading, setLoading] = useState(false);
+
   const style = {
     position: 'absolute',
     top: '50%',
@@ -24,7 +25,6 @@ const ImageUploader = () => {
     if (!e.target.files.length) {
       return
     }
-
     var form = new FormData();
     form.append('image', e.target.files[0])
     setLoading(true)
