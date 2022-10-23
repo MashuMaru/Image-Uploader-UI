@@ -1,4 +1,4 @@
-# Image Uploader UI
+# Image Uploader UI (React JS and Material UI)
 
 The approach to the UI for the project is simple, a single page application (SPA) with an upload button. 
 Upon clicking the button, the user will see a window pop up to give them the view of their files on their PC. From there, they can select the image they wish to upload. 
