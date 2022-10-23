@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Button, Box, Modal, Backdrop, CircularProgress } from '@mui/material';
 import axios from 'axios'
 import { useSnackbar } from 'notistack';
